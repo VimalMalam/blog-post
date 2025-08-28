@@ -107,7 +107,7 @@ export const Api = () => {
 
             <div className='result'>
                 <div className='result-flex'>
-                    {apidata.length > 0 ? apidata.map(item => <Card id={item.id} title={item.title} desc={item.desc} handleEdit={() => editHandler(item.id)} deleteHandler={() => deleteHandler(item.id)} />) : <p className='empty-p'>!No Posts here</p>}
+                    {apidata.length > 0 ? apidata.map(item => <Card id={item.id} title={item.title} desc={item.desc} handleEdit={() => editHandler(item.id)} deleteHandler={() => deleteHandler(item.id)} />) : <p className='empty-p'>! No Posts here</p>}
                 </div>
             </div>
         </>
