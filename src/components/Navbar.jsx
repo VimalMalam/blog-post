@@ -9,9 +9,9 @@ export const Navbar = () => {
         navigate('/login')
     }
 
-    const handleApi = () => {
-        navigate('/api')
-    }
+    // const handleApi = () => {
+    //     navigate('/api')
+    // }
 
     const handleBlog = () => {
         navigate('/')

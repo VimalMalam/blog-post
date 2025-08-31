@@ -1,20 +1,30 @@
-import { useParams } from 'react-router-dom';
-import './Read.css';
+import { useParams } from "react-router-dom";
+import { useState, useEffect } from "react";
+import { Navbar } from "./Navbar";
+import "./Read.css";
 
 export const Read = () => {
+    const { readId } = useParams();
+    const [post, setPost] = useState(null);
 
-    const { showId } = useParams()
-    console.log(showId);
-    const localData = JSON.parse(localStorage.getItem("BlogData") || []);
-    console.log(localData);
-    const match = localData.find(item => JSON.stringify(item.iahad) === showId);
-    console.log(match);
+    useEffect(() => {
+        const storedPosts = JSON.parse(localStorage.getItem("BlogData")) || [];
+        const found = storedPosts.find(item => item.id == readId);
+        setPost(found);
+    }, [readId]);
+
+    if (!post) {
+        return <p style={{ textAlign: "center", marginTop: "40px" }}>Post not found</p>;
+    }
 
     return (
         <>
-            {/* <div className='show'>{match.img}</div> */}
-            <h1 className='show'>{match.title}</h1>
-            <h1 className='show'>{match.desc}</h1>
+            <Navbar />
+            <div className="read-container">
+                <img src={post.img} alt={post.title} className="read-image" />
+                <h1 className="read-title">{post.title}</h1>
+                <p className="read-desc">{post.desc}</p>
+            </div>
         </>
-    )
-}
+    );
+};
