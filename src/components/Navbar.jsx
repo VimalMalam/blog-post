@@ -24,7 +24,7 @@ export const Navbar = () => {
                 {/* <div className='logo-container'>
                     <img className='img-logo' src="../blogger.png" alt="" />
                 </div> */}
-                <button className='logout-btn' onClick={handleApi}>API</button>
+                {/* <button className='logout-btn' onClick={handleApi}>API</button> */}
                 <div>
                     <button className='logout-btn' onClick={handleLogout}>Logout</button>
                 </div>
