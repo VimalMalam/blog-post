@@ -6,6 +6,7 @@ export const Navbar = () => {
     const navigate = useNavigate()
 
     const handleLogout = () => {
+        localStorage.removeItem("lgnData");
         navigate('/login')
     }
 
