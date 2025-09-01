@@ -1,12 +1,61 @@
-# React + Vite
+<!-- Banner -->
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?size=30&duration=3000&color=00F700&center=true&vCenter=true&width=800&lines=Welcome+to+React+Posts!;Built+with+React+⚛️+and+Vite+⚡;Create+and+Manage+Posts+Easily;Clean+Code+%7C+Responsive+UI+%7C+Modern+Stack" alt="Typing SVG" />
+</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<!-- Social Links -->
+<p align="center">
+  <a href="https://vimalmalam.github.io"><img src="https://img.shields.io/badge/MalamVimal-Portfolio-brightgreen?labelColor=white" alt="Malam Vimal Portfolio"></a>
+  <a href="https://github.com/VimalMalam"><img src="https://img.shields.io/github/followers/VimalMalam?style=social&label=github" alt="GitHub followers"></a>
+  <a href="https://linkedin.com/in/vimal-malam"><img src="https://img.shields.io/badge/LinkedIn--blue?style=social&logo=linkedin" alt="LinkedIn profile"></a>
+  <a href="https://instagram.com/v_m5146"><img src="https://img.shields.io/badge/Instagram--pink?style=social&logo=instagram" alt="Instagram follow"></a>
+</p>
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo  
 
-## Expanding the ESLint configuration
+<p align="center">
+  <a href="https://blog-post-wheat.vercel.app" target="_blank">
+    <img src="public/Blog_Post_Megenta.png" alt="Live Demo" width="200" />
+  </a>
+</p>
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+<p align="center">
+  👉 <a href="https://blog-post-wheat.vercel.app" target="_blank">Click here or LOGO to try React Posts</a>
+</p>
+
+---
+
+## 🌟 Project Preview
+
+<p align="center">
+  <img src="public/Blog_Post_Gif.gif" alt="React Posts Home Screenshot gif" width="800" />
+</p>
+
+---
+
+## ✨ Features
+
+- 🔐 Authentication E-Mail and Password  
+- 📝 Create, view, edit, and delete posts    
+- 📱 Responsive design (table + card layout for mobile)  
+- 💾 LocalStorage for sessions & persistence  
+- ⚡ Powered by **Vite** (super-fast build & dev)  
+- 🧹 ESLint for clean & consistent code  
+- 📂 Modular React components  
+
+---
+
+## 🛠 Tech Stack
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=react,vite,redux,js,html,css,git,github" />
+</p>
+
+- **React** – UI components    
+- **Vite** – Super-fast build & dev server  
+- **LocalStorage/SessionStorage** – Persistence    
+- **CSS** – Clean responsive styling  
+
+---
