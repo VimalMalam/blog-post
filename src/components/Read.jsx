@@ -23,7 +23,7 @@ export const Read = () => {
             <div className="read-container">
                 <img src={post.img} alt={post.title} className="read-image" />
                 <h1 className="read-title">{post.title}</h1>
-                <p className="read-desc">{post.desc}</p>
+                <p className="read-desc">{post.body}</p>
             </div>
         </>
     );

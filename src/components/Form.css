@@ -1,4 +1,4 @@
-.form-container {
+/* .form-container {
     max-width: 500px;
     margin: auto;
     background: white;
@@ -49,4 +49,225 @@ textarea {
 
 .submit-btn:hover {
     background: #444;
+} */
+
+
+
+.form-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+.form-container {
+    width: 100%;
+    max-width: 600px;
+    background: #fff;
+    padding: 35px;
+    border-radius: 14px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease;
+}
+
+.form-container:hover {
+    transform: translateY(-2px);
+}
+
+.form-heading {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 28px;
+    color: #1a202c;
+    letter-spacing: -0.5px;
+}
+
+.form-group {
+    margin-bottom: 22px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    font-size: 0.95rem;
+    color: #2d3748;
+}
+
+.form-group input[type="text"],
+.form-group textarea,
+.form-group input[type="file"] {
+    width: 100%;
+    padding: 12px 14px;
+    border: 1px solid #cbd5e0;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border 0.2s ease, box-shadow 0.2s ease;
+}
+
+.form-group input[type="text"]:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #3182ce;
+    box-shadow: 0 0 0 2px rgba(49, 130, 206, 0.3);
+}
+
+textarea {
+    resize: vertical;
+}
+
+/* Image preview */
+.preview-img {
+    margin-top: 14px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+/* Button */
+.submit-btn {
+    width: 100%;
+    padding: 14px;
+    background: linear-gradient(135deg, #2b6cb0, #3182ce);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.05rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.submit-btn:hover {
+    background: linear-gradient(135deg, #2c5282, #2b6cb0);
+    transform: translateY(-1px);
+}
+
+/* Main card */
+.create-card {
+    max-width: 650px;
+    margin: 40px auto;
+    padding: 0;
+    background: #fdfdfd;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 0.4s ease-in-out;
+}
+
+/* Header */
+.card-header {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: #fff;
+    padding: 28px;
+    text-align: center;
+}
+
+.card-header h2 {
+    margin: 0;
+    font-size: 1.9rem;
+    font-weight: 700;
+}
+
+.card-header p {
+    margin-top: 6px;
+    font-size: 0.95rem;
+    opacity: 0.9;
+}
+
+/* Form */
+.card-form {
+    padding: 25px;
+}
+
+.input-box {
+    margin-bottom: 20px;
+}
+
+.input-box input,
+.input-box textarea {
+    width: 100%;
+    padding: 14px 16px;
+    border: none;
+    border-radius: 10px;
+    background: #f3f4f6;
+    font-size: 1rem;
+    transition: all 0.2s ease;
+}
+
+.input-box input:focus,
+.input-box textarea:focus {
+    outline: none;
+    background: #edf2f7;
+    box-shadow: 0 0 0 2px #667eea;
+}
+
+/* Upload */
+.upload-box {
+    background: #f9fafb;
+    border: 2px dashed #cbd5e0;
+    padding: 20px;
+    text-align: center;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+    margin-bottom: 20px;
+}
+
+.upload-box:hover {
+    background: #f1f5f9;
+}
+
+.upload-box label {
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: #4a5568;
+    cursor: pointer;
+}
+
+.upload-box input {
+    display: none;
+}
+
+/* Preview */
+.preview {
+    display: block;
+    margin: 15px auto;
+    max-width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+}
+
+/* Button */
+.create-btn {
+    width: 100%;
+    padding: 14px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: #fff;
+    cursor: pointer;
+    transition: transform 0.2s ease, background 0.3s ease;
+}
+
+.create-btn:hover {
+    transform: translateY(-2px);
+    background: linear-gradient(135deg, #5a67d8, #6b46c1);
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }

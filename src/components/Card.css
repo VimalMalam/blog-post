@@ -1,4 +1,4 @@
-.blog-card {
+/* .blog-card {
     margin-top: 60px;
     background: #fff;
     border-radius: 16px;
@@ -69,4 +69,114 @@
     border-color: #e0a0a0;
     background: #ffecec;
     color: #8a1b1b;
+} */
+
+
+.post-card {
+    max-width: 380px;
+    margin: 30px auto;
+    background: #fff;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    animation: fadeIn 0.4s ease-in-out;
+    display: flex;
+    flex-direction: column;
+}
+
+.post-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 14px 40px rgba(0, 0, 0, 0.18);
+}
+
+/* Image */
+.post-card-image img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+/* Content */
+.post-card-body {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.post-card-title {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+    color: #2d2d2d;
+}
+
+.post-card-desc {
+    font-size: 15px;
+    color: #555;
+    margin: 0;
+    line-height: 1.5;
+    min-height: 48px;
+}
+
+/* Actions */
+.post-card-actions {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 12px;
+}
+
+/* Buttons */
+.btn {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.25s ease;
+}
+
+.btn-show {
+    background: #f3f4f6;
+    color: #333;
+}
+
+.btn-show:hover {
+    background: #e2e8f0;
+}
+
+.btn-update {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: #fff;
+}
+
+.btn-update:hover {
+    background: linear-gradient(135deg, #5a67d8, #6b46c1);
+}
+
+.btn-delete {
+    background: #ffecec;
+    color: #b91c1c;
+}
+
+.btn-delete:hover {
+    background: #fecaca;
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }

@@ -38,7 +38,7 @@ export const Home = () => {
             <Form getData={getData} editData={editData} setEditData={setEditData} allData={allData} />
             <div className='result'>
                 <div className='result-flex'>
-                    {allData.length > 0 ? allData.map(item => <Card img={item.img} title={item.title} desc={item.desc} deleteHandler={() => deleteHandler(item.id)} id={item.id} handleEdit={() => handleEdit(item.id)} />) : <p className='empty-p'>!No Posts here</p>}
+                    {allData.length > 0 ? allData.map(item => <Card img={item.img} title={item.title} body={item.body} deleteHandler={() => deleteHandler(item.id)} id={item.id} handleEdit={() => handleEdit(item.id)} />) : <p className='empty-p'>!No Posts here</p>}
                 </div>
             </div>
         </>
