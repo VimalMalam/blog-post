@@ -1,6 +1,6 @@
 <!-- Banner -->
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?size=30&duration=3000&color=00F700&center=true&vCenter=true&width=800&lines=Welcome+to+React+Posts!;Built+with+React+⚛️+and+Vite+⚡;Create+and+Manage+Posts+Easily;Clean+Code+%7C+Responsive+UI+%7C+Modern+Stack" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?size=30&duration=3000&color=00F700&center=true&vCenter=true&width=800&lines=Welcome+to+Blog+Post!;Built+with+React+⚛️+and+Vite+⚡;Create+and+Manage+Posts+Easily;Clean+Code+%7C+Responsive+UI+%7C+Modern+Stack" alt="Typing SVG" />
 </p>
 
 <!-- Social Links -->
@@ -17,12 +17,12 @@
 
 <p align="center">
   <a href="https://blog-post-wheat.vercel.app" target="_blank">
-    <img src="public/Blog_Post_Megenta.png" alt="Live Demo" width="200" />
+    <img src="public/Blog_Post_Purple.png" alt="Live Demo" width="200" />
   </a>
 </p>
 
 <p align="center">
-  👉 <a href="https://blog-post-wheat.vercel.app" target="_blank">Click here or LOGO to try React Posts</a>
+  👉 <a href="https://blog-post-wheat.vercel.app" target="_blank">Click here or LOGO to try Blog Post</a>
 </p>
 
 ---
@@ -50,7 +50,7 @@
 ## 🛠 Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=react,vite,redux,js,html,css,git,github" />
+  <img src="https://skillicons.dev/icons?i=react,vite,js,html,css,git,github" />
 </p>
 
 - **React** – UI components    
