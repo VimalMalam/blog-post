@@ -7,6 +7,7 @@ import { Login } from './components/Login';
 import { Register } from './components/Register';
 import { Api } from './components/Api';
 import './App.css';
+import { Analytics } from '@vercel/analytics/next';
 import ProtectedRoute from './components/ProtectedRoute'; // default import
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
