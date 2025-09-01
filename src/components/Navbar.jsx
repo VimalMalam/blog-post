@@ -39,19 +39,23 @@ export const Navbar = () => {
 
             <div className="navbar-center">
                 <img
-                    src="/blogger.png" // replace with your logo
+                    src="/Blog_Post_Purple.png" // your logo
                     alt="Logo"
                     className="navbar-logo"
                 />
             </div>
 
             <div className="navbar-right">
-                <div>{user ? (<p>Welcome, {user.name} !</p>) : (<p>Welcome, Guest!</p>)}</div>
-                {/* <img src={userImg} alt="User" className="user-img" /> */}
+                <span className="user-name">
+                    {user ? `Welcome, ${user.name} !` : "Welcome, Guest!"}
+                </span>
                 <button className="logout-btn" onClick={handleLogout}>
-                    Logout
+                    <span className="logout-text">Logout</span>
+                    <span className="logout-icon">⏻</span>
                 </button>
             </div>
+
+
         </nav>
     );
 }
