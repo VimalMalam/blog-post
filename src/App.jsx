@@ -7,7 +7,7 @@ import { Login } from './components/Login';
 import { Register } from './components/Register';
 import { Api } from './components/Api';
 import './App.css';
-import ProtectedRoute from './components/ProtectedRoute'; // default import
+import ProtectedRoute from './components/ProtectedRoute';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 const routes = createBrowserRouter([

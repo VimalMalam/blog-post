@@ -32,7 +32,6 @@ export const Card = ({ img, title, body, handleEdit, deleteHandler, id }) => {
                 <h3 className="post-card-title">{title}</h3>
                 <p className="post-card-desc">{body}</p>
 
-                {/* Actions */}
                 <div className="post-card-actions">
                     <button
                         type="button"
